@@ -1,0 +1,8 @@
+Installer Code
+	
+	GUI:
+	pyuic5 .\GUI\GUI.ui -o GUI.py
+
+	EXE:
+	pyinstaller --onefile --noconsole --icon=your_icon.ico your_script.py
+	pyinstaller --onefile --noconsole --icon=Logo.ico Main.py
